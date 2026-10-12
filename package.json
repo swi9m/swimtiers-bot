@@ -1,0 +1,17 @@
+{
+  "name": "swimtiers-bot",
+  "version": "1.0.0",
+  "description": "SwimTiers - tierlist testing bot for Shield SMP 1.21+ Community",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "node src/deploy-commands.js",
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
